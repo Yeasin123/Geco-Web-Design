@@ -1,0 +1,557 @@
+*{
+padding:0;
+margin:0;
+list-style:none;
+box-sizing: border-box;
+ text-decoration: none;
+}
+html{
+    font-size:62.5%;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+
+}
+body .material-scrolltop{
+    background:#1c1421;
+    border:.2rem solid #4e5c6c;
+}
+.material-scrolltop i{
+    font-size:3rem;
+    color:#fff;
+}
+.material-scrolltop:hover{
+    background:#000221;
+}
+/******************************
+Header-section Section Code Start
+********************************/
+
+.header-section .main-nav{
+    width:100%;
+    background:url(../images/main-menu-bg.jpg)center top no-repeat;
+    background-size:cover;
+    padding:1rem 0
+}
+.navbar-toggler {
+    font-size: 2.25rem;
+    line-height: 1;
+    background: #38224C;
+    color: #fff;
+}
+.header-section .main-nav ul{
+   
+    margin:0;
+}
+.header-section .main-nav ul li{
+    display: inline-block;
+    margin:0;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    transform: skewX(-23deg);
+}
+.navbar-expand-md .navbar-nav .nav-link .skew-div {
+    transform: skewX(23deg);
+}
+.navbar-expand-md .navbar-nav .nav-link .skew-div {
+   padding:1rem
+}
+.navbar-expand-md .navbar-nav .nav-link:hover{
+     color:#1C1121;
+    background:#E8AE1A;
+}
+
+.header-section .navbar-expand-md .navbar-nav .active a {
+    color:#1C1121;
+    background:#E8AE1A;
+    transform: skewX(-23deg);
+}
+.header-section .navbar-expand-md .navbar-nav .active .skew-div{
+    transform:skewX(23deg)
+}
+.header-section .main-nav ul li:first-child{
+    padding: 0;
+}
+.header-section .btn-outline-success {
+    color: #E8AE1A;
+    border: .1rem solid #21111C;
+    background: #111;
+    padding: 1.1rem 2rem;
+}
+
+/******************************
+Header-section Section Code End
+********************************/
+
+.slider-main{
+    background:url(../images/bg2.jpg) center top no-repeat;
+    background-size:cover;
+    width:100%;
+    padding:6rem 0 12rem 0;
+    text-align: center;
+}
+.slider-main h1 {
+    font-size: 9rem;
+    font-weight: 800;
+    letter-spacing: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5rem 0 1rem 0;
+}
+.slider-main h1 span{
+       color: #E8AE1A;
+}
+.slider-main p {
+    font-size: 2.1rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 20rem;
+    line-height: 3rem;
+}
+.slider-main .btn-info {
+    color: #1C1121;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    background: #EFAC09;
+    border: .1rem solid #EFAC09;
+    border-radius: .5rem;
+    padding: .8rem 4rem;
+    margin: 5rem 0;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/******************************
+home-style-top Section Code Start
+********************************/
+
+.home-style-top{
+    width:100%;
+    padding:4rem 0;
+    background:#0D0F2C;
+    text-align: center;
+}
+.home-title h2{
+    font-size:4rem;
+    color:#fff;
+    font-weight:700;
+    padding:4rem 0 2rem 0;
+}
+.home-title p{
+     font-size:1.6rem;
+    font-weight: normal;
+    line-height: 2.8rem;
+    color: #b0c4d7;
+    margin-bottom: 1.5rem;
+    padding:0 26.9rem;
+}
+/******************************
+home-style-top Section Code End
+********************************/
+
+/******************************
+home-style-bottom Section Code Start
+********************************/
+.home-style-bottom{
+    width:100%;
+    padding:7rem 0;
+    background:#000221;
+}
+.home-style-img{
+    width:100%;
+    position:relative;
+    margin-top:5rem;
+}
+.home-style-img:hover .home-img-hover{
+    height: 16%;
+}
+.home-img-hover{
+    position:absolute;
+    width:100%;
+    height:0;
+    display:flex;
+    justify-content: center;
+    transition:.7s ease;
+    bottom:0;
+    background:#E4A101;
+    overflow: hidden;
+}
+.home-img-hover h3 a{
+    font-size:2.5rem;
+    font-weight:600;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+
+}
+.home-link{
+    padding:3rem 0;
+    text-align: center
+}
+.home-link a{
+   color:#fff;
+    font-size:2.8rem;
+    font-weight:700;
+    transition: 1s;
+     text-decoration: none;
+}
+
+.home-link a:hover{
+    color:#E4A101;
+    transition: 1s
+}
+/******************************
+home-style-bottom Section Code End
+********************************/
+
+/*****************************
+ Stunning-Page-top Section Start
+*******************************/
+
+.Stunning-Page-top{
+    width:100%;
+    padding:4rem 0;
+    background:#0D0F2C;
+    text-align: center;
+}
+.Stunning-Page-title h2{
+    font-size:4rem;
+    color:#fff;
+    font-weight:700;
+    padding:4rem 0 2rem 0;
+}
+.Stunning-Page-title p {
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 3rem;
+    color: #b0c4d7;
+    margin-bottom: 1.5rem;
+    padding:0 31rem;
+}
+/*****************************
+ Stunning-Page-top Section End
+*******************************/
+
+/*****************************
+ Stunning-Page-bottom Section Start
+*******************************/
+.Stunning-Page-bottom{
+    width:100%;
+    padding:5rem 0 2rem 0;
+    background:#000221;
+}
+.Stunning-Page1-img{
+    width:100%;
+    position:relative;
+    margin-top:5rem;
+}
+.Stunning-Page1-img:hover .Stunning-Page-hover1{
+    width:100%;
+    
+}
+.Stunning-Page-hover1{
+    position:absolute;
+    width:0%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    transition:.7s ease;
+    top:0;
+    left:0;
+    background:#000221ab;
+    overflow: hidden;
+}
+.Stunning-Page-hover1 h3 a{
+    font-size:2.5rem;
+    font-weight:600;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+
+}
+.Stunning-Page-hover1-link{
+    padding:3rem 0;
+    text-align: center;
+}
+.Stunning-Page-hover1-link a{
+   color:#fff;
+    font-size:2.8rem;
+    font-weight:700;
+    transition: 1s;
+     text-decoration: none;
+}
+
+.Stunning-Page-hover1-link a:hover{
+    color:#E4A101;
+    transition: 1s
+}
+
+.Stunning-Page2-img{
+    width:100%;
+    position:relative;
+    margin-top:5rem;
+}
+.Stunning-Page2-img:hover .Stunning-Page-hover2{
+    width:100%;
+    height:100%;
+}
+.Stunning-Page-hover2{
+    position:absolute;
+    width:0%;
+    height:0%;
+    display:flex;
+    justify-content: center;
+    transition:.7s ease;
+    top:0;
+    left:0;
+    background:#000221ab;
+    overflow: hidden;
+}
+.Stunning-Page-hover2 h3 a{
+    font-size:2.5rem;
+    font-weight:600;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+
+}
+.Stunning-Page-hover2-link{
+    padding:3rem 0;
+    text-align: center;
+}
+.Stunning-Page-hover2-link a{
+   color:#fff;
+    font-size:2.8rem;
+    font-weight:700;
+    transition: 1s;
+     text-decoration: none;
+}
+
+.Stunning-Page-hover2-link a:hover{
+    color:#E4A101;
+    transition: 1s
+}
+
+
+.Stunning-Page3-img{
+    width:100%;
+    position:relative;
+    margin-top:5rem;
+}
+.Stunning-Page3-img:hover .Stunning-Page-hover3{
+    width:100%;
+    height:100%;
+}
+.Stunning-Page-hover3{
+    position:absolute;
+    width:0%;
+    height:0%;
+    display:flex;
+    justify-content: center;
+    transition:.7s ease;
+    top:0;
+    right:0;
+    background:#000221ab;
+    overflow: hidden;
+}
+.Stunning-Page-hover3 h3 a{
+    font-size:2.5rem;
+    font-weight:600;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+
+}
+.Stunning-Page-hover3-link{
+    padding:3rem 0;
+    text-align: center;
+}
+.Stunning-Page-hover3-link a{
+   color:#fff;
+    font-size:2.8rem;
+    font-weight:700;
+    transition: 1s;
+     text-decoration: none;
+}
+
+.Stunning-Page-hover3-link a:hover{
+    color:#E4A101;
+    transition: 1s
+}
+
+/*****************************
+ Stunning-Page-bottom Section End
+*******************************/
+
+
+/*****************************
+ Geco-section" Section Start
+*******************************/
+.geco-section{
+    width:100%;
+    padding:4rem 0;
+    background:#0D0F2C;
+    text-align: center;
+}
+.geco-section-title h2{
+    font-size:4rem;
+    color:#fff;
+    font-weight:700;
+    padding:4rem 0 2rem 0;
+}
+.geco-section-title p{
+     font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 2.8rem;
+    color: #b0c4d7;
+    margin-bottom: 1.5rem;
+    padding:0 29.5rem;
+}
+
+/*****************************
+ Geco-section" Section End
+*******************************/
+
+/**************************************
+    Footer-Top Section Code Start
+***************************************/
+
+.footer-top-section{
+    width:100%;
+    background:#000221;
+}
+.footer-top-section h4 {
+    margin: 5.1rem 0 1.4rem 0;
+    color: #fff;
+    font-size: 1.8rem;
+}
+.second-col img{
+    margin:0 .5rem 1rem 0;
+}
+
+
+.footer-top-section p {
+
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #a3b1bf;
+    margin-top: 2rem;
+}
+.footer-top-section h6 {
+    color: #a3b1bf;
+    font-size: 1.2rem;
+    margin-bottom: 4.5rem;
+}
+.footer-top-section .third-col img{
+   padding: .8rem .8rem .8rem 0;
+}
+.footer-top-section .third-col ul li{
+    color:#a3b1bf;
+    font-size: 1.2rem;
+}
+ .foot1 input{
+    width:100%;
+    padding:.8rem;
+    background:#0D0F2C;
+    color:#828e99;
+    border-radius: .5rem;
+    border:.1rem solid #4e5c6c;
+}
+ .foot1{
+     position: relative;
+}
+.foot2 {
+    position: absolute;
+    top: .2rem;
+    right: .4rem;
+}
+.foot2 .btn-info {
+    padding: .4rem 1rem;
+    font-size: 1.2rem;
+    background: #00bc9c;
+}
+.footer-top-section  .fot-img{
+    padding:0;
+}
+.second-col h4{
+    margin-left: -1.3rem;
+}
+
+/**************************************
+    Footer-Top Section Code End
+***************************************/
+
+/**************************************
+    Footer Section Code Start
+***************************************/
+
+.footer-section{
+    width:100%;
+    padding:2rem 0;
+    background:#0D0F2C;
+    margin:0 auto;
+}
+.footer-section .bottom-row{
+    margin-top:1.6rem;
+}
+
+.footer-section p{
+    color:#506a85;
+}
+.footer-section .footer-ul{
+    float:right;
+}
+.footer-section .footer-ul li{
+    display: inline-block;
+   
+}
+.footer-section .footer-ul li a{
+    color:#506a85;
+    font-weight:600;
+    padding:.8rem;
+}
+.footer-section .footer-ul li a:after{
+    content: "."
+}
+
+/**************************************
+    Footer Section Code Start
+***************************************/
+
+/**********************************
+Sticky Menu Code Srat
+************************************/
+     .isStuck{
+    left:0px;
+    right:0;
+    width:100%;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 55;
+
+}

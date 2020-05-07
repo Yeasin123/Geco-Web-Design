@@ -1,0 +1,171 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ /******************************
+Header-section Section Code Start
+********************************/
+    html{
+    font-size:35.5%;
+    }
+    .slider-main p {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 0rem;
+    line-height: 3rem;
+   }
+    .header-section .navbar-expand-md .navbar-nav .active a {
+    text-align: center;
+   }
+    .navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    }
+   /******************************
+Header-section Section Code End
+********************************/
+  
+    .home-title p {
+    padding: 2rem 2rem;
+    }
+    .home-title h2 {
+    font-size: 3.5rem;
+    padding: 6rem 0 3rem 0;
+    }
+    .geco-section-title p {
+    font-size: 1.5rem;
+    padding: 0 4rem;
+   }
+    .footer-top-section{
+        text-align:center;
+    }
+    .footer-top-section p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    padding:0 3rem;    
+    }
+    .foot1 {
+    margin-bottom: 5rem;
+    }
+ 
+   .footer-section p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+      }
+    .footer-section{
+        text-align: center;
+    }
+    .footer-section .footer-ul{
+    float:none;
+    }
+    .footer-section .footer-ul li a {
+    font-size: 2rem;
+    padding:.5rem;
+    }
+}
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+   html{
+    font-size:40.5%;
+    }
+     .header-section .navbar-expand-md .navbar-nav .active a {
+    text-align: center;
+   }
+    .navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    }
+    .navbar-toggler {
+    font-size: 3.25rem;
+    }
+    .slider-main p {
+    padding: 0 0rem;
+    }
+    .home-title p {
+     padding: 0 7.9rem;
+    }
+    .Stunning-Page-title p{ 
+     padding: 0 10rem;
+    }
+    .geco-section-title p {
+    padding: 0 10.5rem;
+    }
+     .footer-top-section{
+        text-align:center;
+    }
+    .footer-top-section p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+     padding: 0 17rem;
+    }
+     .foot1 {
+    margin-bottom: 5rem;
+    }
+ 
+   .footer-section p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+     color:#fff;
+
+      }
+    .footer-section{
+    text-align: center;
+    }
+    .footer-section .footer-ul{
+    float:none;
+    }
+    .footer-section .footer-ul li a {
+    font-size: 2rem;
+    padding:.5rem;
+    color:#fff;
+    }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  html{
+    font-size:50.5%;
+    }
+    .slider-main p {   
+    padding: 0 4rem;
+    }
+    .home-title p {
+    padding: 0 8.9rem;
+    }
+    .Stunning-Page-title p {
+    padding: 0 8rem;
+    }
+    .Stunning-Page-hover2-link a {
+    font-size: 1.9rem;
+    }
+    .geco-section-title p {
+    padding: 0 11.5rem;
+    }
+    .navbar-expand-md .navbar-nav .nav-link .skew-div {
+    font-size: 1rem;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
